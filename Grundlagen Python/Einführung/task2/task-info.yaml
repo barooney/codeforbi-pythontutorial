@@ -1,0 +1,21 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: PyCharm schl&auml;gt mir vor, wie ich meinen Code besser schreiben kann.
+  is_correct: true
+- text: PyCharm vereint viele Funktionen, die ich zum Programmieren brauche.
+  is_correct: true
+- text: PyCharm ist nur ein Texteditor ohne besondere Funktionen.
+  is_correct: false
+- text: PyCharm macht einem das Leben als Programmierer:in schwerer.
+  is_correct: false
+files:
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 53
+    length: 1
+    placeholder_text: '#füge hier eine Zahl deiner Wahl ein.'
+- name: __init__.py
+  visible: false
+custom_name: Was ist PyCharm?

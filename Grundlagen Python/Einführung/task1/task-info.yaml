@@ -1,0 +1,15 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: Python ist beliebt f&uuml;r Data Science
+  is_correct: true
+- text: Python wurde 2001 ver&ouml;ffentlicht
+  is_correct: false
+- text: Python ist eine Programmiersprache
+  is_correct: true
+files:
+- name: main.py
+  visible: true
+- name: __init__.py
+  visible: false
+custom_name: Was ist Python?

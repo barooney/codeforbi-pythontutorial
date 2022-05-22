@@ -1,0 +1,14 @@
+type: theory
+custom_name: Eingaben und Ausgaben
+files:
+- name: task.py
+  visible: true
+  placeholders:
+  - offset: 0
+    length: 30
+    placeholder_text: '# Frag die nutzende Person nach ihrem Namen.'
+  - offset: 32
+    length: 28
+    placeholder_text: '# Gib eine Begrüßung aus'
+- name: __init__.py
+  visible: false

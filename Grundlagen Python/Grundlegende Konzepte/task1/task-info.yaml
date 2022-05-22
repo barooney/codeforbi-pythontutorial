@@ -1,0 +1,7 @@
+type: theory
+custom_name: Algorithmen
+files:
+- name: __init__.py
+  visible: false
+- name: task.py
+  visible: true

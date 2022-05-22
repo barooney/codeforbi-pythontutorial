@@ -1,0 +1,15 @@
+type: marketplace
+title: Grundlagen Python
+language: German
+summary: |-
+  In dieser Übung soll es darum gehen, Python-Code lesen zu lernen und grob zu verstehen, was er tut.
+  Anschließend wollen wir selbst einfache Code-Fragmente schreiben und dabei die verschiedenen Konzepte von Python kennenlernen.
+
+  ---
+
+  Dieses Werk ist lizenziert unter einer Creative Commons Namensnennung - Weitergabe unter gleichen Bedingungen 4.0 International Lizenz.
+programming_language: Python
+environment: unittest
+content:
+- Einführung
+- Grundlegende Konzepte

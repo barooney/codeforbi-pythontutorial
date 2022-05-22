@@ -1,0 +1,25 @@
+type: theory
+custom_name: Variablen
+files:
+- name: __init__.py
+  visible: false
+- name: task.py
+  visible: true
+  placeholders:
+  - offset: 62
+    length: 39
+    placeholder_text: '# Frag die nutzende Person nach ihrem Alter'
+  - offset: 102
+    length: 23
+    placeholder_text: '# Wandle den eingegebenen Text in eine ganze Zahl um'
+  - offset: 126
+    length: 17
+    placeholder_text: '# Rechne 1 zu dem Alter hinzu und speichere es in der selben
+      Variablen'
+  - offset: 144
+    length: 23
+    placeholder_text: '# Konvertiere das Alter wieder in einen Text'
+  - offset: 168
+    length: 55
+    placeholder_text: '# Gib das berechnete Alter wieder aus und erkläre dem Nutzer,
+      was die Zahl bedeutet'
