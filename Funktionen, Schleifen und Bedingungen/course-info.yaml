@@ -1,9 +1,9 @@
 type: marketplace
-title: Funktionen, Schleifen und Bedingungen
+title: Funktionen, Bedingungen und Schleifen
 language: English
 summary: |-
-  In dieser Übung soll es darum gehen, Python-Code lesen zu lernen und grob zu verstehen, was er tut.
-  Anschließend wollen wir selbst einfache Code-Fragmente schreiben und dabei die verschiedenen Konzepte von Python kennenlernen.
+  In dieser Übung wollen wir uns mit Funktionen, Bedingungen und Schleifen beschäftigen und verstehen, wie wir ein 
+  Programm dazu bringen können, Teile auszulassen oder auch zu wiederholen. 
 
   ---
 
