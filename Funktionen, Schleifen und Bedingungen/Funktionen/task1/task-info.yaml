@@ -1,0 +1,17 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: Funktionen geben immer den selben Wert zur&uuml;ck.
+  is_correct: false
+- text: Funktionen finden im echten Leben keine Anwendung.
+  is_correct: false
+- text: Funktionen helfen dabei, sich beim Programmieren seltener zu wiederholen.
+  is_correct: true
+- text: Parameter beeinflussen eine Funktion nicht.
+  is_correct: false
+files:
+- name: task.py
+  visible: true
+- name: __init__.py
+  visible: false
+custom_name: Was sind Funktionen?

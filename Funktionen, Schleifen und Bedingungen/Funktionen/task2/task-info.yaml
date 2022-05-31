@@ -1,0 +1,16 @@
+type: edu
+custom_name: Eine eigene Funktion definieren
+files:
+- name: task.py
+  visible: true
+  placeholders:
+  - offset: 63
+    length: 80
+    placeholder_text: '# Du kannst diesen Teil hier löschen und die Funktion selbst
+      implementieren.'
+- name: __init__.py
+  visible: false
+- name: tests/__init__.py
+  visible: false
+- name: tests/test_task.py
+  visible: true

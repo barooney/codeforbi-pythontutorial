@@ -1,0 +1,22 @@
+type: edu
+custom_name: Schleifen implementieren
+files:
+- name: task.py
+  visible: true
+  placeholders:
+  - offset: 181
+    length: 17
+    placeholder_text: '# Hier definierst du das bisher gestemmte Gesamtgewicht (0kg)'
+  - offset: 308
+    length: 20
+    placeholder_text: '# Hier gibst du das gestemmte Gesamtgewicht zurück'
+  - offset: 203
+    length: 100
+    placeholder_text: '# Hier implementierst du die Schleife, in der du die Funktion
+      Bankdrücken aufrufst und das Gesamtgewicht neu berechnest.'
+- name: tests/test_task.py
+  visible: false
+- name: __init__.py
+  visible: false
+- name: tests/__init__.py
+  visible: false

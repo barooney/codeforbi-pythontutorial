@@ -1,0 +1,19 @@
+type: choice
+custom_name: Was ist eine Schleife?
+is_multiple_choice: true
+options:
+  - text: Schleifen helfen dabei, den Code kürzer zu machen.
+    is_correct: true
+  - text: Schleifen haben keine praktischen Anwendungsfälle.
+    is_correct: false
+  - text: Schleifen haben keine festen Abläufe
+    is_correct: false
+  - text: Es gibt verschiedene Arten von Schleifen in Python.
+    is_correct: true
+  - text: Listen sind sinnvoll, wenn man mit Schleifen arbeiten will.
+    is_correct: true
+files:
+- name: main.py
+  visible: true
+- name: __init__.py
+  visible: false

@@ -1,0 +1,15 @@
+type: edu
+custom_name: if, else, elif
+files:
+- name: tests/test_task.py
+  visible: false
+- name: __init__.py
+  visible: false
+- name: tests/__init__.py
+  visible: false
+- name: task.py
+  visible: true
+  placeholders:
+  - offset: 30
+    length: 322
+    placeholder_text: return "Ein guter Anfang"
