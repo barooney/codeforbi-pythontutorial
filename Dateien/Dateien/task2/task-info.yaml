@@ -1,0 +1,27 @@
+type: output
+custom_name: Dateien einlesen
+files:
+- name: __init__.py
+  visible: false
+- name: chat.txt
+  visible: true
+- name: task.py
+  visible: true
+  placeholders:
+  - offset: 29
+    length: 33
+    placeholder_text: 'with ... as ...: # 1. vervollständige diese Zeile mit der Ressource
+      und einem Variablennamen'
+  - offset: 71
+    length: 29
+    placeholder_text: 'for ... in ...: # 2. vervollständige diese Zeile zum Auslesen
+      aller Zeilen'
+  - offset: 113
+    length: 19
+    placeholder_text: '# 4. Entferne den Zeilenumbruch am Ende der Zeile'
+  - offset: 145
+    length: 11
+    placeholder_text: 'print(...) # 3. Gib die Zeile, die du eingelesen hast, wieder
+      aus'
+- name: tests/output.txt
+  visible: false

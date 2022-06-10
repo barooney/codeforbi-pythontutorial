@@ -1,0 +1,26 @@
+type: choice
+is_multiple_choice: true
+files:
+- name: __init__.py
+  visible: false
+- name: file.txt
+  visible: true
+- name: task.py
+  visible: true
+- name: file.txt
+  visible: true
+custom_name: Was sind Dateien?
+quiz_header: Kreuze die richtigen Aussagen an
+options:
+  - text: Reine Text-Dateien haben keine Formatierungen.
+    is_correct: false
+  - text: Word-Dokumente sind reine Text-Dateien.
+    is_correct: false
+  - text: Das Betriebssystem organisiert Dateien für uns.
+    is_correct: true
+  - text: Das Betriebssystem organisiert Daten für uns.
+    is_correct: false
+  - text: Wenn ich bestehende Daten verwende, dann schreibe ich Code, der das Format versteht.
+    is_correct: true
+  - text: Wenn ich bereits ein Programm habe und Daten erhalte, die mein Programm nicht verarbeiten kann, dann konvertiere ich die Daten in ein Format, das mein Programm versteht.
+    is_correct: true

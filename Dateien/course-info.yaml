@@ -1,0 +1,15 @@
+type: marketplace
+title: Mit Dateien arbeiten
+language: German
+summary: |-
+  In dieser Übung werden wir mit Dateien arbeiten.
+  Dabei werden wir einfache Textdateien einlesen und ausgeben und dabei weitere Funktionen für die Arbeit mit Strings kennenlernen.
+  Außerdem werden wir CSV-Dateien einlesen und mit den Daten, die wir daraus einlesen, einfache Berechnungen anstellen.
+
+  ---
+
+  Dieses Werk ist lizenziert unter einer Creative Commons Namensnennung - Weitergabe unter gleichen Bedingungen 4.0 International Lizenz.
+programming_language: Python
+environment: unittest
+content:
+- Dateien

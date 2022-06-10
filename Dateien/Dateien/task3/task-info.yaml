@@ -1,0 +1,32 @@
+type: output
+custom_name: CSV-Dateien einlesen
+files:
+- name: task.py
+  visible: true
+  placeholders:
+  - offset: 0
+    length: 10
+    placeholder_text: '# 1. importiere die Bibliothek csv'
+  - offset: 163
+    length: 33
+    placeholder_text: '# 2. öffne die Datei, deren Dateiname als Parameter übergeben
+      wird.'
+  - offset: 205
+    length: 23
+    placeholder_text: '# 3. lasse die Datei von einem CSV-Reader einlesen'
+  - offset: 237
+    length: 17
+    placeholder_text: '# 4. lasse für jede Zeile der Datei Folgendes ausführen:'
+  - offset: 267
+    length: 21
+    placeholder_text: '# 6. Prüfe, ob der Name der spielenden Person NICHT "name"
+      ist'
+  - offset: 301
+    length: 55
+    placeholder_text: '# 5. gib den Highscore als Text aus'
+- name: __init__.py
+  visible: false
+- name: highscores.csv
+  visible: true
+- name: tests/output.txt
+  visible: false
