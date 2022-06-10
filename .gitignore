@@ -129,3 +129,10 @@ dmypy.json
 .pyre/
 
 /**/.idea
+
+# Course Temporary files
+/**/task-remote-info.yaml
+/**/lesson-remote-info.yaml
+/**/.coursecreator
+/courses/*.zip
+/exec
