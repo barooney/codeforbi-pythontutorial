@@ -3,6 +3,8 @@
 Dieser Kurs wird von und mit der Selbstlerngruppe von Code for Bielefeld entwickelt.
 Er soll einen Einstieg in die Programmierung mit Python bieten und das eigenverantwortliche Lernen mithilfe von [JetBrains PyCharm Edu](https://www.jetbrains.com/de-de/pycharm-edu/) und der [JetBrains EduTools](https://plugins.jetbrains.com/plugin/10081-edutools) ermöglichen.
 
+Hier sind Informationen über bisherige und künftige Vor-Ort-Treffen gesammelt: https://yopad.eu/p/Selbstlerngruppe-365days
+
 ## Installation von PyCharm
 
 Im [Wiki](https://github.com/barooney/codeforbi-pythontutorial/wiki) sind alle notwendigen Schritte für das Installieren der Entwicklungsumgebung PyCharm erklärt.
