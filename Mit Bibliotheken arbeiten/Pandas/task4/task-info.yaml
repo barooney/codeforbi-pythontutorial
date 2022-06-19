@@ -1,0 +1,15 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: Correct
+  is_correct: true
+- text: Incorrect
+  is_correct: false
+files:
+- name: __init__.py
+  visible: false
+- name: names.csv
+  visible: true
+- name: main.py
+  visible: true
+custom_name: Spielwiese

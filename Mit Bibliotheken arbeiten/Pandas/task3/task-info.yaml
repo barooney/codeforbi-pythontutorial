@@ -1,0 +1,19 @@
+type: edu
+custom_name: Daten filtern
+files:
+- name: __init__.py
+  visible: false
+- name: tests/__init__.py
+  visible: false
+- name: names.csv
+  visible: true
+- name: task.py
+  visible: true
+  placeholders:
+  - offset: 290
+    length: 37
+    placeholder_text: |-
+      # Filtere die Liste nach Namen, die 14 Zeichen oder länger sind
+          return names
+- name: tests/test_task.py
+  visible: false

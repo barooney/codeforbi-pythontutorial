@@ -1,0 +1,19 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: Man kann sofort erkennen, ob eine Bibliothek von Python zur Verfügung gestellt
+    wird.
+  is_correct: false
+- text: Ein Counter zählt, wie oft ein Element (z.B. ein Wort) in einer Liste vorkommt.
+  is_correct: true
+- text: Zwei Bibliotheken dürfen nicht die selbe Funktion beinhalten.
+  is_correct: false
+- text: Das Schlüsselwort, um eine Bibliothek zu verwenden, ist import.
+  is_correct: true
+quiz_header: 'Wähle die richtigen Antworten aus:'
+files:
+- name: __init__.py
+  visible: false
+- name: task.py
+  visible: true
+custom_name: Eine Bibliothek einbinden

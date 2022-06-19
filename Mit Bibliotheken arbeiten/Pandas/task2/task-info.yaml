@@ -1,0 +1,27 @@
+type: edu
+custom_name: Daten verändern und hinzufügen
+files:
+- name: __init__.py
+  visible: false
+- name: tests/__init__.py
+  visible: false
+- name: names.csv
+  visible: true
+- name: task.py
+  visible: true
+  placeholders:
+  - offset: 83
+    length: 31
+    placeholder_text: '# korrigiere den Namen von Simeon Cannon zu Simon Cannon'
+  - offset: 119
+    length: 16
+    placeholder_text: '# Entferne Asif Ramos von der Liste'
+  - offset: 140
+    length: 55
+    placeholder_text: '# Füge die Spalte "fullname" hinzu, in der der Vor- und Nachname
+      der Person, getrennt mit einem Leerzeichen, steht'
+  - offset: 200
+    length: 39
+    placeholder_text: '# Berechne die Länge des Namens der Person'
+- name: tests/test_task.py
+  visible: false

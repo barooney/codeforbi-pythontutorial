@@ -1,0 +1,18 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: Der Funktionsumfang von Python kann nicht mit Bibliotheken erweitert werden.
+  is_correct: false
+- text: Bibliotheken sparen Zeit, weil man Code daraus mehrfach verwenden kann.
+  is_correct: true
+- text: Bibliotheken gibt es ausschließlich für Data Science und Machine Learning.
+  is_correct: false
+- text: Bibliotheken werden bei Bedarf installiert.
+  is_correct: true
+quiz_header: Welche Aussagen stimmen? Kreuze die richtigen Aussagen an!
+files:
+- name: __init__.py
+  visible: false
+- name: task.py
+  visible: true
+custom_name: Was ist eine Bibliothek?
