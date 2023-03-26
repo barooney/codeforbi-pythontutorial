@@ -7,5 +7,5 @@ def check_password():
         print('Access granted')
         if typed_password == '12345':
             print('That password is one that an idiot puts on their luggage.')
-        else:
-            print('Access denied')
+    else:
+        print('Access denied')
